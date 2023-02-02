@@ -1,0 +1,15 @@
+D:\ApplicationProjects\GameCalculator\GameCalculator\bin\Debug\net6.0\GameCalculator.exe
+D:\ApplicationProjects\GameCalculator\GameCalculator\bin\Debug\net6.0\GameCalculator.deps.json
+D:\ApplicationProjects\GameCalculator\GameCalculator\bin\Debug\net6.0\GameCalculator.runtimeconfig.json
+D:\ApplicationProjects\GameCalculator\GameCalculator\bin\Debug\net6.0\GameCalculator.dll
+D:\ApplicationProjects\GameCalculator\GameCalculator\bin\Debug\net6.0\GameCalculator.pdb
+D:\ApplicationProjects\GameCalculator\GameCalculator\obj\Debug\net6.0\GameCalculator.csproj.AssemblyReference.cache
+D:\ApplicationProjects\GameCalculator\GameCalculator\obj\Debug\net6.0\GameCalculator.GeneratedMSBuildEditorConfig.editorconfig
+D:\ApplicationProjects\GameCalculator\GameCalculator\obj\Debug\net6.0\GameCalculator.AssemblyInfoInputs.cache
+D:\ApplicationProjects\GameCalculator\GameCalculator\obj\Debug\net6.0\GameCalculator.AssemblyInfo.cs
+D:\ApplicationProjects\GameCalculator\GameCalculator\obj\Debug\net6.0\GameCalculator.csproj.CoreCompileInputs.cache
+D:\ApplicationProjects\GameCalculator\GameCalculator\obj\Debug\net6.0\GameCalculator.dll
+D:\ApplicationProjects\GameCalculator\GameCalculator\obj\Debug\net6.0\refint\GameCalculator.dll
+D:\ApplicationProjects\GameCalculator\GameCalculator\obj\Debug\net6.0\GameCalculator.pdb
+D:\ApplicationProjects\GameCalculator\GameCalculator\obj\Debug\net6.0\GameCalculator.genruntimeconfig.cache
+D:\ApplicationProjects\GameCalculator\GameCalculator\obj\Debug\net6.0\ref\GameCalculator.dll
