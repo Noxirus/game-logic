@@ -2,8 +2,9 @@
 using GameCalculator;
 using System.Windows;
 
-Vector2 normal = new Vector2(1, 0);
-Vector2 ray = new Vector2(-2, -1);
+Vector2 a = new Vector2(float.MaxValue, float.MaxValue);
+Vector2 b = new Vector2(float.MaxValue, float.MaxValue);
 
-Console.WriteLine(VectorCalculator.Reflection(normal, ray));
-Console.WriteLine("Ray Initially: " + ray.normalized.ToString());
+Vector2 c = a + b;
+
+Console.WriteLine(c.ToString());

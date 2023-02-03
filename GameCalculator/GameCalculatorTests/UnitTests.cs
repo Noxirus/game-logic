@@ -4,9 +4,10 @@ using GameCalculator;
 namespace GameCalculatorTests
 {
     [TestClass]
-    public class Vector2DAlgebraTests
+    public class AlgebraVector2DTests
     {   
         [TestMethod]
+        [TestCategory("Addition")]
         public void CorrectAdditionTest()
         {
             //Arrange
@@ -20,6 +21,7 @@ namespace GameCalculatorTests
         }
 
         [TestMethod]
+        [TestCategory("Addition")]
         public void WrongAdditionTest()
         {
             //Arrange
@@ -33,6 +35,7 @@ namespace GameCalculatorTests
         }
 
         [TestMethod]
+        [TestCategory("Subtraction")]
         public void CorrectSubtractionTest()
         {
             //Arrange
@@ -46,6 +49,7 @@ namespace GameCalculatorTests
         }
 
         [TestMethod]
+        [TestCategory("Subtraction")]
         public void WrongSubtractionTest()
         {
             //Arrange
@@ -59,6 +63,7 @@ namespace GameCalculatorTests
         }
 
         [TestMethod]
+        [TestCategory("Multiply")]
         public void CorrectMultiplyTest()
         {
             //Arrange
@@ -71,6 +76,7 @@ namespace GameCalculatorTests
             Assert.AreEqual(result, expected);
         }
         [TestMethod]
+        [TestCategory("Multiply")]
         public void WrongMultiplyTest()
         {
             //Arrange
@@ -83,6 +89,7 @@ namespace GameCalculatorTests
             Assert.AreNotEqual(result, expected);
         }
         [TestMethod]
+        [TestCategory("Division")]
         public void CorrectDivisionTest()
         {
             //Arrange
@@ -95,6 +102,7 @@ namespace GameCalculatorTests
             Assert.AreEqual(result, expected);
         }
         [TestMethod]
+        [TestCategory("Division")]
         public void WrongDivisionTest()
         {
             //Arrange
@@ -112,6 +120,7 @@ namespace GameCalculatorTests
     public class AdvancedVector2DTests
     {
         [TestMethod]
+        [TestCategory("Length")]
         public void CorrectLengthBetweenTwoVectors()
         {
             Vector2 first = new Vector2(0f, 0f);
@@ -123,6 +132,7 @@ namespace GameCalculatorTests
             Assert.AreEqual(expected, result);
         }
         [TestMethod]
+        [TestCategory("Length")]
         public void WrongLengthBetweenTwoVectors()
         {
             Vector2 first = new Vector2(0f, 0f);
@@ -135,6 +145,7 @@ namespace GameCalculatorTests
         }
 
         [TestMethod]
+        [TestCategory("Length")]
         public void CorrectLengthOfSingleVector()
         {
             Vector2 vector = new Vector2(5.0f, 5.0f);
@@ -145,6 +156,7 @@ namespace GameCalculatorTests
             Assert.AreEqual(expected, result);
         }
         [TestMethod]
+        [TestCategory("Length")]
         public void WrongLengthOfSingleVector()
         {
             Vector2 vector = new Vector2(5.0f, 5.0f);
@@ -155,6 +167,7 @@ namespace GameCalculatorTests
             Assert.AreNotEqual(expected, result);
         }
         [TestMethod]
+        [TestCategory("Normalization")]
         public void NormalizedVectorLengthIsOne()
         {
             Vector2 testVector = new Vector2(4, 3);
@@ -165,7 +178,8 @@ namespace GameCalculatorTests
             Assert.AreEqual(expected, lengthOfNormalizedVector);
         }
         [TestMethod]
-        public void WrongIfVectorLengthIsNotOne()
+        [TestCategory("Normalization")]
+        public void WrongIfNormalizedVectorLengthIsNotOne()
         {
             Vector2 testVector = new Vector2(4, 3);
             float lengthOfNormalizedVector = testVector.normalized.length;
@@ -176,6 +190,7 @@ namespace GameCalculatorTests
         }
 
         [TestMethod]
+        [TestCategory("Dot Product")]
         public void CorrectDotProduct()
         {
             Vector2 first = new Vector2(1f, 1f);
@@ -186,8 +201,8 @@ namespace GameCalculatorTests
 
             Assert.AreEqual(expected, result);
         }
-
         [TestMethod]
+        [TestCategory("Dot Product")]
         public void WrongDotProduct()
         {
             Vector2 first = new Vector2(1f, 1f);
@@ -195,6 +210,32 @@ namespace GameCalculatorTests
             float expected = 1.5f;
 
             float result = VectorCalculator.DotProduct(first, second);
+
+            Assert.AreNotEqual(expected, result);
+        }
+        [TestMethod]
+        [TestCategory("Reflection")]
+        public void CorrectReflection()
+        {
+            Vector2 normal = new Vector2(1f, 0f);
+            Vector2 ray = new Vector2(.5f, .5f);
+
+            Vector2 expected = new Vector2(-.5f, .5f);
+
+            Vector2 result = VectorCalculator.Reflection(ray, normal);
+
+            Assert.AreEqual(expected, result);
+        }
+        [TestMethod]
+        [TestCategory("Reflection")]
+        public void WrongReflection()
+        {
+            Vector2 normal = new Vector2(1f, 0f);
+            Vector2 ray = new Vector2(.5f, .5f);
+
+            Vector2 expected = new Vector2(.5f, -.5f);
+
+            Vector2 result = VectorCalculator.Reflection(ray, normal);
 
             Assert.AreNotEqual(expected, result);
         }

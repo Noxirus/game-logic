@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+//Much of these vectors are based on two points, starting from 0,0 world origin
 namespace GameCalculator
 {
     public struct Vector2
