@@ -37,6 +37,11 @@ namespace GameCalculator
             return new Vector2(vector.x * value, vector.y * value);
         }
 
+        public static Vector2 operator *(float value, Vector2 vector)
+        {
+            return new Vector2(vector.x * value, vector.y * value);
+        }
+
         public static Vector2 operator /(Vector2 vector, float value)
         {
             return new Vector2(vector.x / value, vector.y / value);
@@ -44,7 +49,7 @@ namespace GameCalculator
 
         public override string ToString()
         {
-            return "X: " + x + " / Y: " + y;
+            return "X: " + x.ToString("0.00") + " / Y: " + y.ToString("0.00");
         }
     }
 
@@ -62,6 +67,11 @@ namespace GameCalculator
         public static float DotProduct(Vector2 first, Vector2 second)
         {
             return first.x * second.x + first.y * second.y;
+        }
+
+        public static Vector2 Reflection(Vector2 ray, Vector2 normal)
+        {
+            return ray - 2 * (DotProduct(ray, normal.normalized) * normal.normalized);
         }
     }
 }
