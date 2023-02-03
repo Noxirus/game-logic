@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "z2wumyGS0k2CtUZqP+geXCx9dNgOMzpXsUQFodetkHuijNepYgr4UL0ryOfAWsxrDd6wILlov/0yQTIPRLAaIA==",
+  "dgSpecHash": "rD1BTy5lIOSK4buEGlMu2t68PilB06jgBlsBSXhtK/HuO3dbiMNddIRw8D1JIUvD+RSpN5xRpoZkIenyR/pACg==",
   "success": true,
-  "projectFilePath": "D:\\ApplicationProjects\\GameCalculator\\GameCalculatorTests\\GameCalculatorTests.csproj",
+  "projectFilePath": "C:\\Users\\Hamis\\Desktop\\Projects\\game-logic\\GameCalculator\\GameCalculatorTests\\GameCalculatorTests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Hamis\\.nuget\\packages\\coverlet.collector\\3.1.0\\coverlet.collector.3.1.0.nupkg.sha512",
     "C:\\Users\\Hamis\\.nuget\\packages\\microsoft.codecoverage\\16.11.0\\microsoft.codecoverage.16.11.0.nupkg.sha512",

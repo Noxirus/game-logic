@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\ApplicationProjects\\GameCalculator\\GameCalculator\\GameCalculator.csproj",
+      "projectUniqueName": "C:\\Users\\Hamis\\Desktop\\Projects\\game-logic\\GameCalculator\\GameCalculator\\GameCalculator.csproj",
       "projectName": "GameCalculator",
-      "projectPath": "D:\\ApplicationProjects\\GameCalculator\\GameCalculator\\GameCalculator.csproj",
+      "projectPath": "C:\\Users\\Hamis\\Desktop\\Projects\\game-logic\\GameCalculator\\GameCalculator\\GameCalculator.csproj",
       "packagesPath": "C:\\Users\\Hamis\\.nuget\\packages\\",
-      "outputPath": "D:\\ApplicationProjects\\GameCalculator\\GameCalculator\\obj\\",
+      "outputPath": "C:\\Users\\Hamis\\Desktop\\Projects\\game-logic\\GameCalculator\\GameCalculator\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

@@ -6226,11 +6226,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\ApplicationProjects\\GameCalculator\\GameCalculatorTests\\GameCalculatorTests.csproj",
+      "projectUniqueName": "C:\\Users\\Hamis\\Desktop\\Projects\\game-logic\\GameCalculator\\GameCalculatorTests\\GameCalculatorTests.csproj",
       "projectName": "GameCalculatorTests",
-      "projectPath": "D:\\ApplicationProjects\\GameCalculator\\GameCalculatorTests\\GameCalculatorTests.csproj",
+      "projectPath": "C:\\Users\\Hamis\\Desktop\\Projects\\game-logic\\GameCalculator\\GameCalculatorTests\\GameCalculatorTests.csproj",
       "packagesPath": "C:\\Users\\Hamis\\.nuget\\packages\\",
-      "outputPath": "D:\\ApplicationProjects\\GameCalculator\\GameCalculatorTests\\obj\\",
+      "outputPath": "C:\\Users\\Hamis\\Desktop\\Projects\\game-logic\\GameCalculator\\GameCalculatorTests\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -6251,8 +6251,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "D:\\ApplicationProjects\\GameCalculator\\GameCalculator\\GameCalculator.csproj": {
-              "projectPath": "D:\\ApplicationProjects\\GameCalculator\\GameCalculator\\GameCalculator.csproj"
+            "C:\\Users\\Hamis\\Desktop\\Projects\\game-logic\\GameCalculator\\GameCalculator\\GameCalculator.csproj": {
+              "projectPath": "C:\\Users\\Hamis\\Desktop\\Projects\\game-logic\\GameCalculator\\GameCalculator\\GameCalculator.csproj"
             }
           }
         }
